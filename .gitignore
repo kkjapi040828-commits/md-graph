@@ -1,0 +1,17 @@
+# build output
+_docs/
+*.html
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# os
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# editors
+.vscode/
+.idea/

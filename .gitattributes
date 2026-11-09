@@ -1,0 +1,5 @@
+# .bat must keep CRLF - cmd.exe needs it, and it must stay ASCII with no BOM.
+*.bat text eol=crlf
+# everything else normalises to LF in the repo
+*.py  text eol=lf
+*.md  text eol=lf
